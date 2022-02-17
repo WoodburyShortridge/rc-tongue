@@ -8,6 +8,7 @@
     "build": "webpack --config webpack.config.js"
   },
   "dependencies": {
+    "@tensorflow-models/blazeface": "^0.0.7",
     "@tensorflow/tfjs": "^3.13.0"
   },
   "devDependencies": {
