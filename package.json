@@ -5,11 +5,13 @@
   "author": "woodbury shortridge",
   "license": "MIT",
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --watch --config webpack.config.js"
   },
   "dependencies": {
     "@tensorflow-models/blazeface": "^0.0.7",
-    "@tensorflow/tfjs": "^3.13.0"
+    "@tensorflow/tfjs": "^3.13.0",
+    "p5": "^1.4.1"
   },
   "devDependencies": {
     "webpack": "^5.68.0",

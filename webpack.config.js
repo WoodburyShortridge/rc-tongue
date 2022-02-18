@@ -10,7 +10,6 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js'
     },
-
     //default mode is production
     mode: 'development'
 }
