@@ -216,6 +216,8 @@ const sketch = (s) => {
         backbuffer.clear()
         backbuffer.image(canvas, width * -0.5, height * -0.5, width, height)
 
+        const time = (Date.now() - start) / 1000
+
         // set active shader
         s.shader(theShader)
         // video as a texture
